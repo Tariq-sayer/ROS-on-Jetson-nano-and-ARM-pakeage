@@ -43,3 +43,5 @@ source ~/.bashrc
 5-now run the Rviz
 roslaunch robot_arm_pkg check_motors.launch
 
+
+
