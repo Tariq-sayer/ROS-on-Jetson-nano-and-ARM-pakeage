@@ -9,7 +9,10 @@ cd ~/catkin_ws/
 
 catkin_make
 
+2-Insall arm package
+
 cd ~/catkin_ws/src
+
 
 git clone https://github.com/smart-methods/arduino_robot_arm.git
 
@@ -27,9 +30,16 @@ sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
 
 sudo nano ~/.bashrc
 
-at the end of the (bashrc) file add the follwing line (source /home/walaa/catkin_ws/devel/setup.bash) then ctrl + o
+3--At the end of the "bashrc" file, add the following line: 
 
+Location : (source /home/tariq/catkin_ws/devel/setup.bash) 
+then to write out 
+ ctrl + o
+and to ext ctrl + x
+
+4-updeat the source
 source ~/.bashrc
 
+5-now run the Rviz
 roslaunch robot_arm_pkg check_motors.launch
 
